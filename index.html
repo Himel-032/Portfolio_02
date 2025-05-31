@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
     <!--icon-->
@@ -101,21 +102,21 @@
                     <button class="navbar-link active" data-nav-link>About</button>
                 </li>
                 <li class="navbar-item">
-                    <button class="navbar-link active" data-nav-link>Resume</button>
+                    <button class="navbar-link" data-nav-link>Resume</button>
                 </li>
                 <li class="navbar-item">
-                    <button class="navbar-link active" data-nav-link>Portfolio</button>
+                    <button class="navbar-link" data-nav-link>Portfolio</button>
                 </li>
                 <li class="navbar-item">
-                    <button class="navbar-link active" data-nav-link>Blog</button>
+                    <button class="navbar-link" data-nav-link>Blog</button>
                 </li>
                 <li class="navbar-item">
-                    <button class="navbar-link active" data-nav-link>Contact</button>
+                    <button class="navbar-link" data-nav-link>Contact</button>
                 </li>
             </ul>
         </nav>
         <!--About-->
-        <article class="about active" data-page="abput">
+        <article class="about active" data-page="about">
             <header>
                 <h2 class="h2 article-title">About me</h2>
             </header>
@@ -248,7 +249,7 @@
              <!--Testimonails modal-->
              <div class="modal-container" data-modal-container>
                 <div class="overlay" data-overlay></div>
-                <section class="testimonials-model">
+                <section class="testimonials-modal">
                     <button class="modal-close-btn" data-modal-close-btn>
                         <ion-icon name="close-outline"></ion-icon>
                     </button>
@@ -313,6 +314,113 @@
                 </ul>
              </section>
 
+        </article>
+        <!--Resume-->
+        <article class="resume" data-page="resume">
+            <header>
+                <h2 class="h2 article-title">Resume</h2>
+            </header>
+            <section class="timeline">
+                <div class="title-wrapper">
+                    <div class="icon-box">
+                        <ion-icon name="book-outline"></ion-icon>
+                    </div>
+                    <h3 class="h3">Education</h3>
+                </div>
+                <ol class="timeline-list">
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">CSE at Khulna University of Engineering & Technology</h4>
+                        <span>2023 - 2026</span>
+                        <p class="timeline-text">
+                            I am pursuing my BSc degree in Computer Science and Engineering at KUET.
+                        </p>
+                    </li>
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Science at BPATC School and College</h4>
+                        <span>2019 - 2021</span>
+                        <p class="timeline-text">
+                            I have completed my Higher Secondary Education (HSC) from Science group at BPATC School and College. 
+                        </p>
+                    </li>
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Alhaz Jamal Uddin Ideal High School</h4>
+                        <span>2014 - 2019</span>
+                        <p class="timeline-text">
+                            I have completed my Secondary Education.
+                        </p>
+                    </li>
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Shailbari Govt. Primary School</h4>
+                        <span>2009 - 2013</span>
+                        <p class="timeline-text">
+                            I have completed my Primary School Education here.
+                        </p>
+                    </li>
+                </ol>
+            </section>
+            <section class="timeline">
+                <div class="title-wrapper">
+                    <div class="icon-box">
+                        <ion-icon name="book-outline"></ion-icon>
+                    </div>
+                    <h3 class="h3">Experience</h3>
+                </div>
+                <ol class="timeline-list">
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Web Developer</h4>
+                        <span>2023 - Present</span>
+                        <p class="timeline-text">
+                            I have developed many websites and games.
+                        </p>
+                    </li>
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Web Developer</h4>
+                        <span>2023 - Present</span>
+                        <p class="timeline-text">
+                            I have developed many websites and games.
+                        </p>
+                    </li>
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Web Developer</h4>
+                        <span>2023 - Present</span>
+                        <p class="timeline-text">
+                            I have developed many websites and games.
+                        </p>
+                    </li>
+                </ol>
+            </section>
+            <section class="skill">
+                <h3 class="h3 skills-title">My skills</h3>
+                <ul class="skills-list content-card">
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Web design</h5>
+                            <data value="80">80%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 80%;"></div>
+                        </div>
+                    </li>
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Graphic design</h5>
+                            <data value="70">70%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 70%;"></div>
+                        </div>
+                    </li>
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="h5">Software development</h5>
+                            <data value="50">50%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 50%;"></div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
         </article>
     </div>
     </main>
