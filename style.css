@@ -140,8 +140,8 @@ body {
     height: 30px;
     border-radius: 8px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     font-size: 16px;
     color: var(--orange-yellow-crayola);
     box-shadow: var(--shadow-1);
@@ -258,7 +258,7 @@ main {
     transition: var(--transition-2);
   }
 
-  .sidebar .active {
+  .sidebar.active {
     max-height: 405px;
   }
 
@@ -290,10 +290,10 @@ main {
     padding: 3px 12px;
     border-radius: 8px;
   }
-  /* .info-content .title:hover {
+   .info-content .title:hover {
     color: rgb(3, 3, 3);
     background-color: wheat;
-  } */
+  } 
 
   .info_more-btn {
     position: absolute;
@@ -307,6 +307,9 @@ main {
     box-shadow: var(--shadow-2);
     transition: var(--transition-1);
     z-index: 1;
+    /* ion-icon {
+        visibility: visible;
+    } */
   }
 
   .info_more-btn::before {
@@ -339,6 +342,9 @@ main {
   .sidebar.active .sidebar-info_more {
     opacity: 1;
     visibility: visible;
+  }
+  .sidebar.active .info-btn {
+    transform: rotate(180deg);
   }
 
   .contacts-list {
@@ -751,7 +757,13 @@ main {
     .clients-item {
         min-width: calc(33.33% - 10px);
     }
-    /* Portfolio,blog */
+    
+ /* #Resume  */
+    .timeline-item-title {
+        margin-top: 20px;
+    }
+    
+        /* Portfolio,blog */
  }
 
  @media (min-width: 580px) {
@@ -932,6 +944,9 @@ main {
         left: -43px;
     }
     .skills-item:not(:last-child) { margin-bottom: 25px; }
+    .timeline-item-title {
+        margin-top: 20px;
+    }
 
  }
 
@@ -960,6 +975,10 @@ main {
     max-width: 680px;
   }
   .modal-avatar-box img { width: 80px; }
+   /* #Resume  */
+  .timeline-item-title {
+      margin-top: 20px;
+  }
 
  }
 
@@ -1010,6 +1029,11 @@ main {
 
     /* CLients  */
     .clients-item { min-width: calc(25% - 38px); }
+  
+         /* #Resume  */
+    .timeline-item-title {
+        margin-top: 20px;
+    }
 }
 
 
@@ -1101,5 +1125,9 @@ main {
     }
     /* #Resume  */
     .timeline-text { max-width: 700px; }
+
+    .timeline-item-title {
+        margin-top: 20px;
+    }
 }
 
