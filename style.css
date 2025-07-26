@@ -1099,6 +1099,49 @@ textarea.form-input::-webkit-resizer { display: none; }
   background: var(--bg-gradient-jet);
 }
 
+
+#packages-container {
+  display: grid;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+.package-card {
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: var(--eerie-black-1);
+}
+.package-card h3  {
+  margin: 0;
+ 
+}
+.package-card h3 a {
+  
+  color: var(--light-gray);
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.package-card:hover > h3 a {
+  color: var(--orange-yellow-crayola);
+}
+.package-card p {
+  color: var(--light-gray-70);
+  margin-bottom: 10px;
+}
+.package-card pre {
+  background: #eee;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+.package-card:hover {
+  transform: scale(1.05);
+  transition: 0.25s ease-in-out ;
+}
+
+
  /* Responsiveness */
  
  @media (min-width: 450px) {
